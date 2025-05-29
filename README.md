@@ -2,6 +2,10 @@
 
 The Docagent project is a Python-based documentation generator that provides comprehensive technical documentation for software projects. It is designed to be flexible and adaptable to various project types and languages, making it a valuable tool for developers and users alike.
 
+install via pip (Recommended)
+
+pip install llm-docagent==1.0.1
+
 **Features**
 
 The Docagent project offers the following key features:
