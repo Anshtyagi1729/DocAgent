@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "docagent"
+version = "1.0.0"
 authors = [
     {name = "Ansh Tyagi", email = "anshtyagi314159@gmail.com"},
 ]
@@ -44,10 +45,10 @@ dev = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Anshtyagi1729/DocAgent"
-"Bug Reports" = "https://github.com/Anshtyagi1729/DocAgent"
-"Source" = "https://github.com/Anshtyagi1729/DocAgent"
-"Documentation" = "https://github.com/Anshtyagi1729/DocAgent#readme"
+Homepage = "https://github.com/Anshtyagi1729/DocAgent"
+BugReports = "https://github.com/Anshtyagi1729/DocAgent"
+Source = "https://github.com/Anshtyagi1729/DocAgent"
+Documentation = "https://github.com/Anshtyagi1729/DocAgent#readme"
 
 [project.scripts]
 docagent = "docagent.cli:main"
@@ -66,7 +67,6 @@ target-version = ['py37']
 include = '\.pyi?$'
 extend-exclude = '''
 /(
-  # directories
   \.eggs
   | \.git
   | \.hg
