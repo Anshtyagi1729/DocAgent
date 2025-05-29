@@ -30,7 +30,7 @@ class DocumentationGenerator:
             return self._format_final_documentation(documentation, analysis)
         
         except Exception as e:
-            print(f"⚠️  LLM generation failed: {e}")
+            print(f"LLM generation failed: {e}")
             print("   Falling back to template documentation...")
             return self._generate_template_docs(analysis, code_context)
     
